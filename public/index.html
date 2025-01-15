@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="height=device-height, initial-scale=1.0" />
+    <title>Mini Dark Souls 3</title>
+    <meta name="description" content="Basic Dark Souls 3 simulator :D" />
+    <meta name="author" content="kaan" />
+    <script src="app.js"></script>
+    <link href="./second.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <!-- <audio id="audio2" src="./1-01 Dark Souls III.mp3" preload="auto"></audio>  -->
+  </head>
+
+  <body>
+    <div class="page">
+      <a class="center" id="fight_text">Dark Souls 3</a>
+      <img
+        id="traverseimg"
+        src="./traversefog.jpeg"
+        as="image1"
+        onclick="play(); changeImage(); showme();"
+      />
+      <img
+        class="center"
+        style="display: none"
+        id="imgChange"
+        onclick="if (!window.__cfRLUnblockHandlers) return false; play(); changeImage(); showme();"
+        src="./udiedim.jpeg"
+      />
+      <a class="center" id="change_fight_text">"you died"</a>
+      <!--  -->
+      <a class="center" id="click_for_fight">
+        <div class="container">
+          <span>"Traverse the fog"</span>
+          <img src="./A.png" alt="xboxa" />
+        </div>
+      </a>
+
+      <audio id="audio" src="./udied-soundeffect.mp3" preload="auto"></audio>
+    </div>
+  </body>
+</html>

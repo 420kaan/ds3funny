@@ -1,0 +1,237 @@
+@import url(https://images5.alphacoders.com/609/609173.jpg);
+
+@font-face {
+  font-family: "OptimusPrincepssSemiBold";
+  src: url("./optimusprinceps/OptimusPrincepsSemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-image: url(https://images5.alphacoders.com/609/609173.jpg);
+  background-position: 0%;
+  background-size: cover;
+  background-color: #262626;
+  transition: 0.1s;
+  user-select: none;
+  font-family: "OptimusPrincepssSemiBold", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  font-family: "OptimusPrincepssSemiBold", sans-serif;
+  overflow: hidden;
+}
+#xboxa {
+  width: 45px;
+  height: 45px;
+  color: #000;
+  font-size: 2.3vw;
+  font-weight: 900;
+  -webkit-text-stroke: 0.05vw #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h5 {
+  font-size: 100px !important;
+  color: red;
+}
+
+.h2 {
+  font-size: 2.7vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.click_red {
+  color: red;
+}
+
+#change_fight_text {
+  display: none;
+}
+
+#audio {
+  display: none;
+}
+#audio2 {
+  display: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+#click_for_fight {
+  width: auto;
+  color: #000;
+  font-size: 2.3vw;
+  font-weight: 900;
+  -webkit-text-stroke: 0.05vw #fff;
+}
+
+#fight_text {
+  width: auto;
+  color: #000;
+  margin-top: 2vh;
+  font-size: 2.6vw;
+  font-weight: 900;
+  letter-spacing: 1.8vw;
+  -webkit-text-stroke: 0.05vw #fff;
+}
+
+#change_fight_text {
+  display: none;
+  width: auto;
+  color: red;
+  margin-top: 5vh;
+  font-size: 3.9vw;
+  font-weight: 900;
+  letter-spacing: 1.8vw;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+#imgChange {
+  margin-top: 3vh;
+  width: 50vw;
+  height: auto;
+  align-items: center;
+}
+
+#imgChange {
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-y: scroll;
+  }
+  .pg {
+    display: block;
+    height: auto;
+    min-height: 70vh;
+    text-align: center;
+  }
+
+  #click_for_fight {
+    width: 100%;
+    font-size: 7.3vw;
+    margin-top: 2vh;
+    -webkit-text-stroke: 0.15vw #fff;
+  }
+
+  #imgChange {
+    width: 100%;
+    font-size: 7.3vw;
+  }
+
+  #fight_text {
+    margin-top: 7.6vw;
+    text-align: center;
+    align-items: center;
+    font-size: 4.3vw;
+    -webkit-text-stroke: 0.15vw #fff;
+  }
+
+  #change_fight_text {
+    margin-top: 5vh;
+    font-size: 6.9vw;
+    letter-spacing: 1.8vw;
+  }
+  .click_red {
+    font-size: 7.9vw;
+    -webkit-text-stroke: 0.15vw #fff;
+  }
+
+  ul {
+    width: 100%;
+    border-radius: 2px;
+  }
+
+  ul li {
+    width: 100%;
+  }
+
+  ul li span {
+    font-size: 3vw;
+  }
+}
